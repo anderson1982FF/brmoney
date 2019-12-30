@@ -1,0 +1,25 @@
+{
+    "name": "treinaweb/brmoney",
+    "description": "Money formatter for brazilians",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson",
+            "email": "060857@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4":{
+            "BrMoney\\": "src/"
+
+
+        }
+
+    },
+    "require": {
+        "php": ">=7.0"
+
+    }
+}
